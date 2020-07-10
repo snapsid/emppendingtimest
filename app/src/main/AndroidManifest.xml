@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.employabilitytracking">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Final3Months"></activity>
+        <activity android:name=".Consent" />
+        <activity android:name=".newJobDet" />
+        <activity android:name=".currempno" />
+        <activity android:name=".after3months1" />
+        <activity android:name=".CheckAadhar" />
+        <activity android:name=".FinalEmployer" />
+        <activity android:name=".Final" />
+        <activity android:name=".MainChatActivity" />
+        <activity android:name=".signupnew">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CredEmp" />
+        <activity android:name=".EmployNO1" />
+        <activity android:name=".EmployYES1" />
+        <activity android:name=".Employerfed" />
+        <activity android:name=".employerhome" />
+        <activity android:name=".NWorking" />
+        <activity android:name=".Working" />
+        <activity android:name=".place" />
+        <activity android:name=".courseDET" />
+        <activity android:name=".SelfEmpNO" />
+        <activity android:name=".SelfEmpYES" />
+        <activity android:name=".placementnofeed" />
+        <activity android:name=".placementyesfeed" />
+        <activity android:name=".Decider" />
+        <activity android:name=".Credentials" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".VerifyPhone" />
+        <activity android:name=".SignUP" />
+    </application>
+
+</manifest>

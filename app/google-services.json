@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1013570871605",
+    "firebase_url": "https://emplyabilitytracking.firebaseio.com",
+    "project_id": "emplyabilitytracking",
+    "storage_bucket": "emplyabilitytracking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013570871605:android:c3c0288b3c02643d346c7c",
+        "android_client_info": {
+          "package_name": "com.example.employabilitytracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013570871605-h18r7l9ce2bjivscu6mqs3api55e99i6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlGgBFVNvjVmhAV-Eh-oKc5VhBsXCtZJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013570871605-h18r7l9ce2bjivscu6mqs3api55e99i6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ap1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".courseDET">
+
+    <ScrollView
+        android:id="@+id/id23"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_course_details"
+                android:textSize="30sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/editText3"
+                style="@style/textviewMainActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/course_name"
+                android:completionThreshold="1"
+                android:inputType="textPersonName" />
+
+            <AutoCompleteTextView
+                android:id="@+id/editText41"
+                style="@style/textviewMainActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:completionThreshold="1"
+                android:ems="10"
+                android:hint="@string/centre_name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="@string/centre_address"
+                style="@style/textviewMainActivity"/>
+
+            <EditText
+                android:id="@+id/editText43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="@string/center_id"
+                style="@style/textviewMainActivity"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/for_course_name"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/ip5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Next"
+                android:layout_marginTop="20sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
